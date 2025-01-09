@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color:aliceblue;
+            color: #444;
+        }
+        header{
+            background-color: orangered;
+            color: white;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+         }
+         nav{
+            background-color: chartreuse;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+         nav a{
+            color: red;
+            margin: 0px,20px;
+            text-decoration: none;
+           margin-left: 30px;
+            font-weight: 500;
+            font-size: 1.1rem;
+         }
+          nav a:hover {
+            color:blue;
+            text-decoration: underline;
+        }
+        section {
+            padding: 25px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 8px;
+            max-width: 900px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        section:hover {
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+        }
+        section h2 {
+            color:brown;
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        table th,
+        table td {
+            border: 1px solid #9e9494;
+            padding: 12px;
+            text-align: left;
+        }
+        table th {
+            background-color: #f1f1f1;
+            font-weight: 600;
+            color: #4c2d82;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 12px 0;
+            font-size: 1.2rem;
+        }
+        ul li strong {
+            color: #FF4500;
+        }
+        form {
+            max-width: 650px;
+            margin: 25px auto;
+        }
+        form label {
+            display:block;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        form input,
+        form textarea,
+        form button {
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 18px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+        form input:focus,
+        form textarea:focus {
+            border-color:red;
+            outline: none;
+        }
+        form button {
+            background-color:red;
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        form button:hover {
+            background-color:rgb(34, 232, 20);
+        }
+        form button:active {
+            background-color:rgb(15, 79, 81);
+        }
+        </style>
+   
+</head>
+<body>
+    <header>
+        <h1>Welcome to ISTS Sankranti Event</h1>
+        <p style="color: black;">The Ultimate Celebration for Students!</p>
+    </header>
+    <nav>
+        <a href="#About">About</a>
+        <a href="#Schedule">Schedule</a>
+        <a href="#contact">Contact</a>
+     </nav>
+     <section id="about">
+        <h2>About the Event</h2>
+        <p>Join us at the ISTS Sankranti Event 2025 for a day filled with laughter, nostalgia, and exciting activities. Relive your favorite moments of Rangoli Competitions, Dances, Singing, Kite Competitions and fun trivia games!</p>
+     </section>
+     <section id="schedule">
+        <h2>Event Schedule</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                    <th>Details</th>
+                </tr>
+             </thead>
+             <tbody>
+                <tr>
+                    <td>10:00AM</td>
+                    <td>Opening Ceremony</td>
+                    <td>Hosted by Principal Madam</td>
+                </tr>
+                <tr>
+                    <td>11:30 AM</td>
+                    <td>Bhogi Mantalu</td>
+                    <td>The Religious Start</td>
+                </tr>
+                <tr>
+                    <td>1:00 PM</td>
+                    <td>Lunch Break</td>
+                    <td>Enjoy the Sankranti food items </td>
+                </tr>
+                <tr>
+                    <td>4:00 PM</td>
+                    <td>kite Competition</td>
+                    <td>Most Awaited Moment</td>
+                </tr>
+                <tr>
+                    <td>5:00 PM</td>
+                    <td>Rangoli Competition</td>
+                    <td>Adding Colours to our life!</td>
+                </tr>
+                <tr>
+                    <td>6:30 PM</td>
+                    <td>Cultural Events</td>
+                    <td>Fun Packed Entertainment</td>
+                </tr>
+                <tr>
+                    <td>9:00 PM</td>
+                    <td>Prize Distribution</td>
+                    <td>End of the event</td>
+                </tr>
+             </tbody>
+             </table>
+            </section>
+             <section id="contact">
+                <h2>Contact Us</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </body>
+        </html>
